@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta name="Slider" content="width=device-width, initial-scale=1.0">
+  <title>Animated Slider</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <section>
+        <video id="slider" autoplay muted loop>
+            <source src="skylander1.mp4" type="video/mp4">
+        </video>
+        <ul class="navigation">
+            <li onclick="videoUrl('Skylander1.mp4')"><img src="thumb1.jpg"></li>
+            <li onclick="videoUrl('Skylander2.mp4')"><img src="thumb2.jpg"></li>
+            <li onclick="videoUrl('Skylander3.mp4')"><img src="thumb3.jpg"></li>
+        </ul>
+    </section>
+    <script type="text/javascript">
+    function videoUrl(hmmmmm){
+        document.getElementById("slider").src = "hmmmmm";
+    }
+    </script>
+</body>
